@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula de DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header com logo, ícones e barra de pesquisa -->
+<header>
+  <div class="topo">
+      <h1 class="logo">
+        <img src="spotify-64.png" alt="imagem de perfil" id="foto">
+      </h1>
+      <div class="casinha-imagem">
+        <img src="1946488.png" alt="ícone de casa" id="casa">
+      </div>
+    <form class="barra">
+      <div class="barra-box">
+        <!-- ícone à esquerda (lupa) -->
+        <img src="pesquisa-de-lupa.png" alt="pesquisa" class="barra-icon">
+
+        <!-- campo de input flexível -->
+        <input type="text" class="barra-input" placeholder="O que você quer escutar?">
+
+        <div class="divisor-vertical-titulos"></div>
+
+        <!-- ícone adicional no canto direito -->
+        <img src="icons8-navegação-50.png" alt="" class="barra-right-icon">
+      </div>
+    </form>
+  </div>
+  <div class="topo-msg">
+    <nav class="topo-links">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#">Premium</a></li>
+            <li class="nav-item"><a href="#">Suporte</a></li>
+            <li class="nav-item"><a href="#">Baixar</a></li>
+        </ul>
+      <div class="divisor-vertical-titulos"></div>
+        <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/022/973/046/non_2x/download-flat-icon-install-download-upload-load-symbol-simple-flat-free-png.png" alt="Instalar" class="icone-instalar"> Instalar aplicativo</a>
+        <a href="#">Inscrever-se</a>
+        <a href="#" class="entrar">Entrar</a>
+      </div>
+  </div>
+  </nav>
+</div>
+</header>
+
+<!-- Sidebar lateral esquerda com navegação -->
+<aside class="sidebar">
+
+<div class="sidebar-content">
+
+<nav class="sidebar-nav">
+<ul class="sidebar-list">
+
+<li class="sidebar-item">
+<a href="#" class="sidebar-link">Home</a>
+</li>
+
+<li class="sidebar-item">
+<a href="#" class="sidebar-link">Buscar</a>
+</li>
+
+</ul>
+</nav>
+
+<div class="welcome-box">
+<h2>Crie sua primeira playlist</h2>
+<p class="welcome-subtext">
+É fácil, vamos te ajudar
+</p>
+
+<button class="btn-criar-playlist">
+Criar playlist
+</button>
+</div>
+
+</div>
+
+
+<footer class="rodape">
+
+<div class="links">
+<a href="#">Legal</a>
+<a href="#">Privacidade</a>
+<a href="#">Cookies</a>
+<a href="#">Sobre anúncios</a>
+</div>
+
+<div class="idioma">
+Português do Brasil
+</div>
+
+</footer>
+
+</aside>
+
+    <!-- Conteúdo principal da página -->
+    <div class="main-content">
+      <!-- Seção de Artistas Populares -->
+    <!-- Seção de Artistas Populares -->
+<section class="content artistas-populares">
+
+  <div class="titulo-secao">
+    <h2>Artistas Populares</h2>
+  </div>
+
+  <div class="artista-list">
+
+      <div class="artista">
+          <img src="brandaoselotrap - Copia.webp">
+          <h3>Brandão85</h3>
+          <p>Artista</p>
+      </div>
+
+      <div class="artista">
+          <img src="https://i.pinimg.com/736x/9c/a0/e4/9ca0e45a6bb061b1fb6f530bd2f7849f.jpg">
+          <h3>Chefin</h3>
+          <p>Artista</p>
+      </div>
+
+      <div class="artista">
+          <img src="https://i.scdn.co/image/ab6761610000517481f47f44084e0a09b5f0fa13">
+          <h3>Bad Bunny</h3>
+          <p>Artista</p>
+      </div>
+
+      <div class="artista">
+          <img src="https://yt3.googleusercontent.com/WKNWsWzhLZ7aIVunubnh2DLmFjbyIo2xSze3_c7gmjf-K8j6k4XdBgK4wxsiFzqNsKhrs4BJ=s900-c-k-c0x00ffffff-no-rj">
+          <h3>Alee</h3>
+          <p>Artista</p>
+      </div>
+
+      <div class="artista">
+          <img src="https://i1.sndcdn.com/artworks-n8uvcFsNSU1qzvQi-Epav2Q-t500x500.jpg">
+          <h3>Playboi Carti</h3>
+          <p>Artista</p>
+      </div>
+
+      <div class="artista">
+          <img src="https://cdn-images.dzcdn.net/images/cover/ff162c708fd242ec6e3633e5964a4e73/0x1900-000000-80-0-0.jpg">
+          <h3>Realestk</h3>
+          <p>Artista</p>
+      </div>
+
+  </div>
+</section>
+
+
+<!-- Seção de Músicas em Alta -->
+<section class="content musicas-alta">
+
+  <div class="titulo-secao">
+    <h2>Músicas em Alta</h2>
+  </div>
+
+  <div class="musica-list">
+
+      <div class="musica">
+          <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/7/f/7/a/3407421750423623.jpg">
+          <h3>NOITE PERFEITA</h3>
+          <p>Brandão85</p>
+      </div>
+
+      <div class="musica">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt_lUmfAmev-QsUUf3EOz2vhgtJlnhXaHsqw&s">
+          <h3>BAILE INOLVIDABLE</h3>
+          <p>Bad Bunny</p>
+      </div>
+
+      <div class="musica">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rtNUZ7shoxDxsWhx4ok1rDAZJzkQeLmItQ&s">
+          <h3>Eu Ainda Tenho Coração</h3>
+          <p>LEALL</p>
+      </div>
+
+      <div class="musica">
+          <img src="https://i1.sndcdn.com/artworks-RDxZzfBBkytrnQ6P-EIpU7Q-t500x500.jpg">
+          <h3>mlq marrento</h3>
+          <p>Caio Luccas</p>
+      </div>
+
+      <div class="musica">
+          <img src="https://i.scdn.co/image/ab67616d0000b2739261dee509e29276856c65af">
+          <h3>Dizeres</h3>
+          <p>Orgânico</p>
+      </div>
+
+      <div class="musica">
+          <img src="https://i.scdn.co/image/ab67616d0000b273ef376d3257503f734de0eefc">
+          <h3>Sunflower</h3>
+          <p>Post Malone</p>
+      </div>
+
+  </div>
+</section>
+    </section>
+      </section>
+    </div>
+</body>
+</html>
