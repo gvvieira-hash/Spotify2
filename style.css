@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+p{
+color:#b3b3b3;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -223,7 +227,7 @@ label {
   width: auto;
 }
 
-/* antigo container não mais usado - mantido caso precise */
+/* inIcio do Container aqui */
 #container {
     width: 400px;
     height: 400px;
@@ -303,7 +307,7 @@ label {
     height: 0;
 }
 
-
+/* Barra de Rolagem, se nao não dá pra visualizar a página */
 .main-content::-webkit-scrollbar {
     width: 8px;
 }
@@ -364,6 +368,7 @@ label {
 .musicas-alta {
     text-align: right; /* títulos alinhados à direita */
 }
+
 .artistas-populares .artista p,
 .musicas-alta .musica p {
     color: #b0b0b0; /* texto cinza */
@@ -423,9 +428,11 @@ label {
   text-decoration: none;
   transform: scale(1.1); /* aumenta ao passar hover */
 }
+
 .titulo-secao{
   margin-bottom: 15px;
 }
+
 .artista-list{
 display:flex;
 gap:25px;
@@ -465,9 +472,6 @@ border-radius:10px;
 object-fit:cover;
 }
 
-p{
-color:#b3b3b3;
-}
 
 .sidebar {
   position: fixed;
